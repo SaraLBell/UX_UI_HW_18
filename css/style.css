@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F4F2;
+    color: #232322;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    height: 50px;
+}
+
+ul {
+    margin-left: auto;
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    padding: 0px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #896961;
+    font-size: 128px;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+    color: #F7F4F2;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    text-align: left;
+}
+
+nav {
+    margin-bottom: 40px;
+    width: 48%;
+    position: fixed;
+    position: relative;
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+nav ul li {
+    padding: 20px 40px;
+    color: #232322;
+    display: inline-block;
+}
+
+.aboutMe {
+    background-color: #4F5D61;
+    width: 50%;
+    margin: 40px;
+    padding: 40px;
+    height: 800px;
+    align-content: center;
+}
+
+.aboutMe p {
+  margin-top: 80px;
+}
+
+
+.mySkills h2 {
+    align-content: center;
+    justify-content: center;
+}
+
+#skill {
+    width: 33%;
+    margin: 40px ;
+    padding: 40px;
+    text-align: left;
+    background-color: #896961;
+    color: #F7F4F2;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #4F5D61;
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-top: 200px;
+}
+
+footer ul li {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 20px 40px;
+    color: #F7F4F2;
+}
+
+footer p {
+    color: #F7F4F2;
+}
